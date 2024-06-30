@@ -21,8 +21,19 @@ const Header = ({ scrolling }) => {
           <div>
             <ul className="flex gap-4">
             <li>
-                <a href="#technologies" className="text-gray-400 hover:text-white cursor-pointer">
-                  Technologies
+                <a href="#" className="text-gray-400 hover:text-white cursor-pointer">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="#education" className="text-gray-400 hover:text-white cursor-pointer">
+                  Education
+                </a>
+              </li>
+            <li>
+                <a href="#skills" className="text-gray-400 hover:text-white cursor-pointer">
+                  Skills
                 </a>
               </li>
               <li>
@@ -32,12 +43,7 @@ const Header = ({ scrolling }) => {
               </li>
               
               <li>
-                <a href="#aboutme" className="text-gray-400 hover:text-white cursor-pointer">
-                  About 
-                </a>
-              </li>
-              <li>
-                <a href="#Contact" className="text-gray-400 hover:text-white cursor-pointer">
+                <a href="#contact" className="text-gray-400 hover:text-white cursor-pointer">
                   Contact
                 </a>
               </li>

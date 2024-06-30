@@ -3,16 +3,18 @@ import React from 'react'
 
 import Profile from './Profile';
 import Projects from './Projects';
-import Technologies from './Technologies';
-import About from './About';
+import Contact from './Contact';
+import Education from './Education';
+import Skills from './Skills';
 const Main = () => {
   return (
     <main className="relative mt-28">
     
     <Profile/>
+    <Education />
+    <Skills />
     <Projects/>
-    <Technologies/>
-    <About/>
+    <Contact />
   </main>
   )
 }
